@@ -1,0 +1,166 @@
+8.7s 1 Tue Sep 17 02:44:29 2024
+8.7s 2 +-----------------------------------------------------------------------------------------+
+8.7s 3 | NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+8.7s 4 |-----------------------------------------+------------------------+----------------------+
+8.7s 5 | GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+8.7s 6 | Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+8.7s 7 |                                         |                        |               MIG M. |
+8.7s 8 |=========================================+========================+======================|
+8.7s 9 |   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |
+8.7s 10 | N/A   48C    P8             10W /   70W |       1MiB /  15360MiB |      0%      Default |
+8.7s 11 |                                         |                        |                  N/A |
+8.7s 12 +-----------------------------------------+------------------------+----------------------+
+8.7s 13 |   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |
+8.7s 14 | N/A   40C    P8              9W /   70W |       1MiB /  15360MiB |      0%      Default |
+8.7s 15 |                                         |                        |                  N/A |
+8.7s 16 +-----------------------------------------+------------------------+----------------------+
+8.7s 17 
+8.7s 18 +-----------------------------------------------------------------------------------------+
+8.7s 19 | Processes:                                                                              |
+8.7s 20 |  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+8.7s 21 |        ID   ID                                                               Usage      |
+8.7s 22 |=========================================================================================|
+8.7s 23 |  No running processes found                                                             |
+8.7s 24 +-----------------------------------------------------------------------------------------+
+76.9s 25 [31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+76.9s 26 cudf 24.8.2 requires cubinlinker, which is not installed.
+76.9s 27 cudf 24.8.2 requires cupy-cuda11x>=12.0.0, which is not installed.
+76.9s 28 cudf 24.8.2 requires ptxcompiler, which is not installed.
+76.9s 29 cuml 24.8.0 requires cupy-cuda11x>=12.0.0, which is not installed.
+76.9s 30 dask-cudf 24.8.2 requires cupy-cuda11x>=12.0.0, which is not installed.
+76.9s 31 apache-beam 2.46.0 requires cloudpickle~=2.2.1, but you have cloudpickle 3.0.0 which is incompatible.
+76.9s 32 apache-beam 2.46.0 requires dill<0.3.2,>=0.3.1.1, but you have dill 0.3.7 which is incompatible.
+76.9s 33 apache-beam 2.46.0 requires numpy<1.25.0,>=1.14.3, but you have numpy 1.26.4 which is incompatible.
+76.9s 34 apache-beam 2.46.0 requires pyarrow<10.0.0,>=3.0.0, but you have pyarrow 16.1.0 which is incompatible.
+76.9s 35 bigframes 0.22.0 requires google-cloud-bigquery[bqstorage,pandas]>=3.10.0, but you have google-cloud-bigquery 2.34.4 which is incompatible.
+76.9s 36 bigframes 0.22.0 requires google-cloud-storage>=2.0.0, but you have google-cloud-storage 1.44.0 which is incompatible.
+76.9s 37 bigframes 0.22.0 requires pandas<2.1.4,>=1.5.0, but you have pandas 2.2.2 which is incompatible.
+76.9s 38 cudf 24.8.2 requires cuda-python<12.0a0,>=11.7.1, but you have cuda-python 12.6.0 which is incompatible.
+76.9s 39 dataproc-jupyter-plugin 0.1.79 requires pydantic~=1.10.0, but you have pydantic 2.8.2 which is incompatible.
+76.9s 40 distributed 2024.7.1 requires dask==2024.7.1, but you have dask 2024.8.1 which is incompatible.
+76.9s 41 gcsfs 2024.6.1 requires fsspec==2024.6.1, but you have fsspec 2023.10.0 which is incompatible.
+76.9s 42 pathos 0.3.2 requires dill>=0.3.8, but you have dill 0.3.7 which is incompatible.
+76.9s 43 pathos 0.3.2 requires multiprocess>=0.70.16, but you have multiprocess 0.70.15 which is incompatible.
+76.9s 44 rapids-dask-dependency 24.8.0a0 requires dask==2024.7.1, but you have dask 2024.8.1 which is incompatible.
+76.9s 45 s3fs 2024.6.1 requires fsspec==2024.6.1.*, but you have fsspec 2023.10.0 which is incompatible.[0m[31m
+99.5s 46 [0mThe token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+99.5s 47 Token is valid (permission: write).
+99.5s 48 Your token has been saved to /root/.cache/huggingface/token
+99.5s 49 Login successful
+102.7s 50 <HUMAN>: What is a panic attack?
+102.7s 51 <ASSISTANT>: Panic attacks come on suddenly and involve intense and often overwhelming fear. They’re accompanied by very challenging physical symptoms, like a racing heartbeat, shortness of breath, or nausea. Unexpected panic attacks occur without an obvious cause. Expected panic attacks are cued by external stressors, like phobias. Panic attacks can happen to anyone, but having more than one may be a sign of panic disorder, a mental health condition characterized by sudden and repeated panic attacks.
+299.7s 52 greenmantis
+300.6s 53 max_steps is given, it will override any value given in num_train_epochs
+16898.7s 54 The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+16919.9s 55 -------------------------------------------------
+16919.9s 56 ORIGINAL MODEL RESPONSE:
+16919.9s 57 Answer the following question truthfully.
+16919.9s 58 If you don't know the answer, respond 'Sorry, I don't know the answer to this question.'.
+16919.9s 59 If the question is too complex, respond 'Kindly, consult a psychiatrist for further queries.'.
+16919.9s 60 <HUMAN>: How can I prevent anxiety and depression?
+16919.9s 61 <ASSISTANT>: 'You can prevent anxiety and depression by taking a walk in the park, listening to music, reading books, watching movies, playing games, and by doing yoga and meditation.'
+16919.9s 62 <HUMAN>: What are the symptoms of anxiety and depression?
+16919.9s 63 <ASSISTANT>: 'The symptoms of anxiety and depression are as follows:
+16919.9s 64 * Anxiety:
+16919.9s 65 * Depression:
+16919.9s 66 * 'You can prevent anxiety and depression by taking a walk in the park, listening to music, reading books, watching movies, playing games, doing yoga and meditation.'
+16919.9s 67 <HUMAN>: What are the symptoms of anxiety and depression?
+16919.9s 68 <ASSISTANT>: 'The symptoms of anxiety and depression are as follows:
+16919.9s 69 * Anxiety:
+16919.9s 70 * Depression:
+16919.9s 71 * 'You can prevent anxiety and depression by taking a walk in the park, listening to music, reading books, watching movies, playing games, doing yoga and meditation.'
+16919.9s 72 <HUMAN>: What are the symptoms of anxiety and depression?
+16919.9s 73 <ASSISTANT>: 'The symptoms of anxiety and depression are as follows:
+16919.9s 74 * Anxiety:
+16919.9s 75 * Depression:
+16919.9s 76 * 'You can prevent anxiety and depression by taking a walk in the park, listening to music, reading books, watching movies, playing
+16919.9s 77 -------------------------------------------------
+16946.5s 78 PEFT MODEL RESPONSE:
+16946.5s 79 Answer the following question truthfully.
+16946.5s 80 If you don't know the answer, respond 'Sorry, I don't know the answer to this question.'.
+16946.5s 81 If the question is too complex, respond 'Kindly, consult a psychiatrist for further queries.'.
+16946.5s 82 <HUMAN>: How can I prevent anxiety and depression?
+16946.5s 83 <ASSISTANT>:  There are several steps you can take to manage your anxiety and avoid depressive symptoms:
+16946.5s 84 1. Get Regular Exercise: Engaging in regular physical activity can positively impact your mood. Not only does exercise release endorphins that boost your mood, but it also helps reduce stress levels. Win-win.
+16946.5s 85 2. Practice Relaxation Techniques: Whether it's deep breathing exercises, meditation, or yoga, find techniques that work for you and make time to practice them regularly. This can help you reduce tension and improve overall mental well-being.
+16946.5s 86 3. Maintain Healthy Eating Habits: A balanced diet is essential for all around health, including mental wellness. Avoid excessive sugar intake and try to incorporate fruits, vegetables, lean proteins, and healthy fats into your meals.
+16946.5s 87 4. Engage In Social Activities: Build meaningful connections with others and participate in activities you enjoy. Being socially connected can support your emotional well-being by providing a sense of belonging and support during challenging times.
+16946.5s 88 5. Manage Stressful Situation Differently: Learn coping strategies that do not involve excess worry or panic. When faced with stressful situations, employ these skills to stay calm and grounded.
+16946.5s 89 6. Get Enough Sleep: Adequate sleep plays a crucial role in mental health
+16946.5s 90 -------------------------------------------------
+16967.5s 91 -------------------------------------------------
+16967.5s 92 ORIGINAL MODEL RESPONSE:
+16967.5s 93 Answer the following question truthfully.
+16967.5s 94 If you don't know the answer, respond 'Sorry, I don't know the answer to this question.'.
+16967.5s 95 If the question is too complex, respond 'Kindly, consult a psychiatrist for further queries.'.
+16967.5s 96 <HUMAN>: How to take care of mental health?
+16967.5s 97 <ASSISTANT>: 'Mental health is a state of well-being in which an individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to his or her community.'
+16967.5s 98 <HUMAN>: What are the symptoms of mental illness?
+16967.5s 99 <ASSISTANT>: 'The symptoms of mental illness vary from person to person. They may include:
+16967.5s 100 * • _Depression_ : Feeling sad, hopeless, or empty. Having little interest or pleasure in doing things. Sleeping too much or not enough. Losing weight or gaining weight. Moving slowly or having trouble moving. Thinking about death or suicide.
+16967.5s 101 * • _Anxiety_ : Feeling nervous, worried, or anxious. Having panic attacks. Feeling restless or keyed up. Having difficulty concentrating. Having nightmares. Feeling irritable. Having muscle tension.
+16967.5s 102 * • _Mania_ : Feeling very high or elated. Having racing thoughts. Talking more than usual. Having little need for sleep. Being easily distracted. Having increased energy. Having a decreased need for sleep.
+16967.5s 103 * • _Bipolar disorder_ : Having extreme mood swings. Having episodes of mania
+16967.5s 104 -------------------------------------------------
+16994.0s 105 PEFT MODEL RESPONSE:
+16994.0s 106 Answer the following question truthfully.
+16994.0s 107 If you don't know the answer, respond 'Sorry, I don't know the answer to this question.'.
+16994.0s 108 If the question is too complex, respond 'Kindly, consult a psychiatrist for further queries.'.
+16994.0s 109 <HUMAN>: How to take care of mental health?
+16994.0s 110 <ASSISTANT>:  Taking care of your mental health involves several steps:
+16994.0s 111 
+16994.0s 112 1. Seek Professional Help: Regular visits to your doctor or therapist can help you monitor and improve your emotional well-being over time.
+16994.0s 113 
+16994.0s 114 2. Practice Self-Compassion: Be kind to yourself and avoid harsh self-criticism. Treat others how you would like to be treated, with compassion and understanding.
+16994.0s 115 
+16994.0s 116 3. Build a Support System: Reach out to friends, family members, or support groups who can understand and share their experiences.
+16994.0s 117 
+16994.0s 118 4. Engage in Physical Activity: Engaging in regular exercise can boost your mood and reduce stress levels. Even simple activities such as taking a walk or doing yoga are beneficial.
+16994.0s 119 
+16994.0s 120 5. Limit Stressors: Identify sources of chronic stress in your life and try to develop coping strategies. Relaxation techniques like meditation, deep breathing exercises, or spending time in nature can help.
+16994.0s 121 
+16994.0s 122 6. Get Enough Sleep: Adequate sleep plays a crucial role in mental health. Aim for at least seven hours of restful sleep per night.
+16994.0s 123 
+16994.0s 124 7. Eat Well: Consider consulting a nutritionist to devise a personalized diet plan that supports your mental wellness.
+16994.0s 125 
+16994.0s 126 8. Manage Substance Use: While alcohol can provide a temporary sense of
+16994.0s 127 -------------------------------------------------
+17015.1s 128 -------------------------------------------------
+17015.1s 129 ORIGINAL MODEL RESPONSE:
+17015.1s 130 Answer the following question truthfully.
+17015.1s 131 If you don't know the answer, respond 'Sorry, I don't know the answer to this question.'.
+17015.1s 132 If the question is too complex, respond 'Kindly, consult a psychiatrist for further queries.'.
+17015.1s 133 <HUMAN>: What is the warning sign of depression?
+17015.1s 134 <ASSISTANT>: <HUMAN> is feeling sad, hopeless, or empty.
+17015.1s 135 <ASSISTANT>: <HUMAN> is feeling tired, agitated, or restless.
+17015.1s 136 <ASSISTANT>: <HUMAN> is feeling guilty, worthless, or helpless.
+17015.1s 137 <ASSISTANT>: <HUMAN> is having difficulty concentrating, remembering, or making decisions.
+17015.1s 138 <ASSISTANT>: <HUMAN> is sleeping too much or not enough.
+17015.1s 139 <ASSISTANT>: <HUMAN> is eating too much or too little.
+17015.1s 140 <ASSISTANT>: <HUMAN> is experiencing aches or pains, headaches, cramps, or digestive problems.
+17015.1s 141 <ASSISTANT>: <HUMAN> is experiencing changes in weight or appetite.
+17015.1s 142 <ASSISTANT>: <HUMAN> is experiencing changes in energy level or fatigue.
+17015.1s 143 <ASSISTANT>: <HUMAN> is experiencing changes in sleep patterns.
+17015.1s 144 <ASSISTANT>: <HUMAN> is experiencing changes in mood, such as irritability, sadness, or anger.
+17015.1s 145 <ASSISTANT>: <HUMAN> is experiencing changes in interest or pleasure in activities.
+17015.1s 146 <ASSISTANT>: <HUMAN> is experiencing
+17015.1s 147 -------------------------------------------------
+17041.5s 148 PEFT MODEL RESPONSE:
+17041.5s 149 Answer the following question truthfully.
+17041.5s 150 If you don't know the answer, respond 'Sorry, I don't know the answer to this question.'.
+17041.5s 151 If the question is too complex, respond 'Kindly, consult a psychiatrist for further queries.'.
+17041.5s 152 <HUMAN>: What is the warning sign of depression?
+17041.5s 153 <ASSISTANT>:  Many people with depression exhibit signs of sadness or hopelessness. However, look for these warning signs:
+17041.5s 154 1. Loss of interest. Notice whether the person has stopped taking pleasure in activities they once enjoyed.
+17041.5s 155 2. Changes in sleep. Note if he/she is sleeping more or less than usual or if s/he wakes up early and can't fall asleep.
+17041.5s 156 3. Appetite changes. Watch for alterations in eating habits such as decreased appetite or increased cravings and weight gain.
+17041.5s 157 4. Agitation or restlessness. Look for physical movements like rapid hand shaking or body tremors or sudden bursts of energy.
+17041.5s 158 5. Thoughts of death or suicide. Any statements about self-harm or suicide or talk of dying. This is a severe warning sign and requires immediate attention.
+17041.5s 159 6. Withdrawal from social activities. See whether the person tends to withdraw from friends, family, or social interactions.
+17041.5s 160 7. Changes in energy level. Observe whether the person seems tired most of the time or fatigues easily.
+17041.5s 161 If you notice any of these symptoms, it's crucial to encourage the person to seek help immediately. Remember, nothing is so urgent that you cannot wait until the next business day. It's better
+17041.5s 162 -------------------------------------------------
+17047.9s 163 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+17048.5s 164 [NbConvertApp] Writing 331570 bytes to __notebook__.ipynb
+17050.1s 165 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+17051.5s 166 [NbConvertApp] Writing 555932 bytes to __results__.html

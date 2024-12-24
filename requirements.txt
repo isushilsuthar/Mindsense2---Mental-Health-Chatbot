@@ -1,0 +1,11 @@
+huggingface_hub==0.22.2
+trl
+transformers>=4.32.0
+accelerate
+peft==0.5.0
+datasets==2.16
+bitsandbytes
+einops==0.7.0
+wandb==0.15.8
+gradio
+langchain
